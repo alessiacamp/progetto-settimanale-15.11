@@ -34,6 +34,9 @@ function getProduct() {
           </div>
         </div>
         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="modifica.html?id=${element._id}">Edit</a></div>
+                            </div>
+        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div class="text-center">
             <a class="btn btn-outline-dark mt-auto" href="dettagli.html?id=${element._id}">
               Details
